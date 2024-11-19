@@ -1,3 +1,5 @@
 node_modules
 .next
 anotacoes.txt
+.env
+.env.development
