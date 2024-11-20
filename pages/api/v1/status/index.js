@@ -1,4 +1,4 @@
-import database from "../../../../infra/database.js";
+import database from "infra/database.js";
 
 // método json retorna utf-8
 async function status(request, response) {
