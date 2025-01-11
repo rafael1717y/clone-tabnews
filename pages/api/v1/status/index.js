@@ -8,7 +8,7 @@ async function status(request, response) {
   const databaseVersionValue = info_postgres.rows[0].server_version; // controller
 
   const databaseName = process.env.POSTGRES_DB;
-  //console.log(`Banco de dados selecionado: ${databaseName}`);
+  console.log(`Banco de dados selecionado: ${databaseName}`);
 
   const databaseMaxConnectionsResult = await database.query(
     "SHOW max_connections;",
